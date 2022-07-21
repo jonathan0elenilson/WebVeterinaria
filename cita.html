@@ -4,44 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cita</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilos2.css">
+    <title>Web Veterinaria</title>
 </head>
 <body>
+    <nav>
+        <!-- contenedor nav -->
+        <section class="contenedor2 nav">
 
-    <sectio class="contenedor">
+            <div class="logo">
+                <img src="Logo4.jpg" alt="">
+            </div>
 
-        <div class="contactanos">
+            <div class="enlaces-header">
+
+                <a href="index.html">Inicio</a>
+                <a href="#">Descargar</a>
+
+            </div>
+        </section>
+    </nav>
+
+
+    <section class="contenedor">
+
+        <div class="tema">
 
             <h1>contactanos</h1>
-
-            <form name="form-citas" netlify>
-            
-
-                <label for="nombre">Nombre: </label>
-                <input type="text" name="nombre" id="NOMBRE" />
-
-                <label for="dui">Dui: </label>
-                <input type="text" name="dui" id="Dui" />
-
-                <label for="Whatsapp">Whatsapp: </label>
-                <input type="text" name="whatsapp" id="WHATSAPP" />
-
-                <label for="Descripcion">Descripcion: </label>
-                <input type="text" name="descripcion" id="DESCRIPCION" />
-
-                <label for="Hora">Hora: </label>
-                <input type="time" name="hora" id="HORA" />
-
-                <label for="Hora">Hora: </label>
-                <input type="date" name="fecha" id="FECHA" />
-
-                <input type="submit" value="Enviar"/>
-                
-                
-            </form>
+            <img src="img/contacto.svg" alt="">
         </div>
 
-    </sectio>
-    
+        <div class="contactanos">         
+
+            <form id="form"  netlify id="formulario">
+            
+                <h1>Ingrese su informacion</h1>
+                <br>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="NOMBRE" />
+                <br>
+                <label for="dui">Dui: </label>
+                <input type="text" name="dui" id="DIA" />
+                <br>
+                <label for="Whatsapp">Whatsapp: </label>
+                <input type="text" name="whatsapp" id="WHATSAPP" />
+                <br>
+                <label for="Descripcion">Descripcion: </label>
+                <input type="text" name="descripcion" id="DESCRIPCION" />
+                <br>
+                <label for="Hora">Hora: </label>
+                <input type="time" name="hora" id="HORA" />
+                <br>
+                <label for="Hora">Fecha: </label>
+                <input type="date" name="fecha" id="FECHA" />
+                <br>
+                <button id="boton" type="submit" value="Enviar">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="contenedor-redes-sociales">
+        <br>
+ 
+        <div class="redes-sociales">
+            <div class="tema2">
+
+                <h4>Redes Sociales</h4>
+
+            </div>
+            
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    
+        </div>
+        <p>Por medio de los iconos puede llegar a nuestras redes sociales de manera rapida.</p>
+        <p>Si deceas una atención mas rapida puedes ingresar a este que te llevara al <a href="https://api.whatsapp.com/send/?phone=50379202140&text=Bienvenid%40+a+Veterinaria+Chowy+online+por+medio+de+esta+aplicacion+de+mensajeria+sera+un+gusto+atenderle&type=phone_number&app_absent=0">Whatsapp</a> de la Veterinaria. </p>
+    </div>
+    <script src="https://kit.fontawesome.com/025b802f34.js" crossorigin="anonymous"></script>
+    <!--<script src="js/main2.js"></script>-->
 </body>
 </html>
