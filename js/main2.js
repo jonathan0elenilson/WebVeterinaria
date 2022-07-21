@@ -1,3 +1,5 @@
+//validacion de campos vacios
+
 const $formulario = document.querySelector("#formulario"),
         $NOMBRE = document.querySelector("#NOMBRE"),
         $WHATSAPP = document.querySelector("#WHATSAPP");
